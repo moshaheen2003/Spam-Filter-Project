@@ -246,6 +246,8 @@ nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('wordnet')
 
+nltk.download('stopwords')
+
 import warnings
 warnings.filterwarnings('ignore')
 
