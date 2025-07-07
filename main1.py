@@ -288,7 +288,7 @@ sns.heatmap(cor, annot=True, linewidth=1)
 import string
 punc = string.punctuation
 from nltk.corpus import stopwords
-stop = stopwords.words("English")
+stop = stopwords.words("english")
 from nltk.stem import WordNetLemmatizer
 ps = WordNetLemmatizer()
 
