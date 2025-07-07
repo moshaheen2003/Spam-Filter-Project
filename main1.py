@@ -242,11 +242,21 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import nltk
 
-nltk.download('punkt')
+# تحميل مكتبة NLTK والبيانات المطلوبة
 nltk.download('punkt_tab')
 nltk.download('wordnet')
 
 nltk.download('stopwords')
+
+
+# تحميل البيانات المطلوبة
+
+nltk.download('punkt')
+
+
+# الآن استخدم stopwords بعد تحميل البيانات
+from nltk.corpus import stopwords
+# stop = stopwords.words("english")
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -288,7 +298,7 @@ sns.heatmap(cor, annot=True, linewidth=1)
 import string
 punc = string.punctuation
 from nltk.corpus import stopwords
-stop = stopwords.words("English")
+stop = stopwords.words("english")
 from nltk.stem import WordNetLemmatizer
 ps = WordNetLemmatizer()
 
