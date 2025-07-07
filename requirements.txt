@@ -4,7 +4,6 @@ numpy
 scikit-learn
 seaborn
 nltk
-string
 pickle
 sklearn
 gunicorn
